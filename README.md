@@ -33,7 +33,7 @@ $.ajax({
 > 敢于第一个吃螃蟹的人，都是有大毅力和勇气之人。
 
 
-参考文献： - [简书](https://www.jianshu.com/p/q81RER#)
+参考文献： - [简书](https://www.jianshu.com/p/q81RER#)    -[Cmd markdown使用说明](https://www.zybuluo.com/mdeditor?url=https%3A%2F%2Fwww.zybuluo.com%2Fstatic%2Feditor%2Fmd-help.markdown)
 
 
  初次尝试，欢迎指正！
