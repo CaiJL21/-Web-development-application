@@ -1,0 +1,832 @@
+2018-03-14 01:09:50 [INFO]-[cn.edu.fjjxu.iot.server.IotServer] Web Socket服务器启动成功,端口:7397......
+2018-03-14 01:09:50 [INFO]-[cn.edu.fjjxu.iot.server.IotServer] Socket服务器启动成功,端口:9000......
+2018-03-14 01:10:15 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":1,"data":"{\"gateid\":\"1\"}"}
+2018-03-14 01:10:15 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 添加网关成功：1
+2018-03-14 01:10:15 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":1,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:10:15 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:10:15 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:10:15 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:10:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"15\\\",\\\"temp\\\":\\\"12\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:10:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:10:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:10:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:10:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"15","temp":"12"}
+2018-03-14 01:10:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:10:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:10:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:10:19 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:10:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:10:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:10:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:10:23 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 客户端与服务器段开启
+2018-03-14 01:10:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"16\\\",\\\"temp\\\":\\\"10\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:10:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:10:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:10:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:10:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"16","temp":"10"}
+2018-03-14 01:10:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:10:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:10:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:10:24 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:10:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:10:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:10:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:10:28 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"02010001\",\"devicecode\":\"RBGLED\",\"data\":\"\"}"}
+2018-03-14 01:10:28 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"01010001\",\"devicecode\":\"DHT11\",\"data\":\"\"}"}
+2018-03-14 01:10:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"15\\\",\\\"temp\\\":\\\"15\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:10:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:10:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:10:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:10:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"15","temp":"15"}
+2018-03-14 01:10:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:10:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:10:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:10:29 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:10:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:10:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:10:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:10:33 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"02010001\",\"devicecode\":\"RBGLED\",\"data\":\"\"}"}
+2018-03-14 01:10:33 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"01010001\",\"devicecode\":\"DHT11\",\"data\":\"\"}"}
+2018-03-14 01:10:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"18\\\",\\\"temp\\\":\\\"20\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:10:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:10:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:10:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:10:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"18","temp":"20"}
+2018-03-14 01:10:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:10:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:10:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:10:34 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:10:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:10:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:10:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:10:38 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"02010001\",\"devicecode\":\"RBGLED\",\"data\":\"\"}"}
+2018-03-14 01:10:38 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"01010001\",\"devicecode\":\"DHT11\",\"data\":\"\"}"}
+2018-03-14 01:10:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"12\\\",\\\"temp\\\":\\\"17\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:10:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:10:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:10:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:10:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"12","temp":"17"}
+2018-03-14 01:10:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:10:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:10:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:10:39 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:10:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:10:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:10:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:10:43 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"02010001\",\"devicecode\":\"RBGLED\",\"data\":\"\"}"}
+2018-03-14 01:10:43 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"01010001\",\"devicecode\":\"DHT11\",\"data\":\"\"}"}
+2018-03-14 01:10:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"14\\\",\\\"temp\\\":\\\"18\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:10:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:10:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:10:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:10:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"14","temp":"18"}
+2018-03-14 01:10:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:10:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:10:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:10:44 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:10:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:10:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:10:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:10:48 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"02010001\",\"devicecode\":\"RBGLED\",\"data\":\"\"}"}
+2018-03-14 01:10:48 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"01010001\",\"devicecode\":\"DHT11\",\"data\":\"\"}"}
+2018-03-14 01:10:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"19\\\",\\\"temp\\\":\\\"16\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:10:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:10:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:10:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:10:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"19","temp":"16"}
+2018-03-14 01:10:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:10:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:10:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:10:49 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:10:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:10:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:10:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:10:53 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"02010001\",\"devicecode\":\"RBGLED\",\"data\":\"\"}"}
+2018-03-14 01:10:53 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"01010001\",\"devicecode\":\"DHT11\",\"data\":\"\"}"}
+2018-03-14 01:10:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"15\\\",\\\"temp\\\":\\\"12\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:10:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:10:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:10:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:10:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"15","temp":"12"}
+2018-03-14 01:10:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:10:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:10:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:10:54 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:10:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:10:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:10:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:10:58 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"02010001\",\"devicecode\":\"RBGLED\",\"data\":\"\"}"}
+2018-03-14 01:10:58 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"01010001\",\"devicecode\":\"DHT11\",\"data\":\"\"}"}
+2018-03-14 01:10:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"11\\\",\\\"temp\\\":\\\"20\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:10:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:10:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:10:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:10:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"11","temp":"20"}
+2018-03-14 01:10:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:10:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:10:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:10:59 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:10:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:10:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:10:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:11:03 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"02010001\",\"devicecode\":\"RBGLED\",\"data\":\"\"}"}
+2018-03-14 01:11:03 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"01010001\",\"devicecode\":\"DHT11\",\"data\":\"\"}"}
+2018-03-14 01:11:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"10\\\",\\\"temp\\\":\\\"11\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:11:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:11:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:11:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:11:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"10","temp":"11"}
+2018-03-14 01:11:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:11:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:11:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:11:04 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:11:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:11:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:11:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:11:05 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 本例仅支持文本！
+2018-03-14 01:11:05 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 客户端与服务器链接关闭！
+2018-03-14 01:11:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"10\\\",\\\"temp\\\":\\\"11\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:11:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:11:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:11:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:11:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"10","temp":"11"}
+2018-03-14 01:11:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:11:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:11:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:11:09 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:11:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:11:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:11:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:11:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"19\\\",\\\"temp\\\":\\\"17\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:11:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:11:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:11:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:11:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"19","temp":"17"}
+2018-03-14 01:11:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:11:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:11:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:11:14 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:11:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:11:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:11:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:11:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"11\\\",\\\"temp\\\":\\\"17\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:11:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:11:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:11:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:11:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"11","temp":"17"}
+2018-03-14 01:11:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:11:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:11:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:11:19 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:11:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:11:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:11:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:11:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"17\\\",\\\"temp\\\":\\\"12\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:11:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:11:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:11:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:11:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"17","temp":"12"}
+2018-03-14 01:11:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:11:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:11:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:11:24 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:11:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:11:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:11:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:11:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"17\\\",\\\"temp\\\":\\\"10\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:11:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:11:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:11:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:11:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"17","temp":"10"}
+2018-03-14 01:11:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:11:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:11:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:11:29 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:11:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:11:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:11:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:11:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"19\\\",\\\"temp\\\":\\\"15\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:11:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:11:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:11:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:11:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"19","temp":"15"}
+2018-03-14 01:11:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:11:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:11:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:11:34 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:11:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:11:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:11:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:11:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"16\\\",\\\"temp\\\":\\\"18\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:11:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:11:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:11:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:11:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"16","temp":"18"}
+2018-03-14 01:11:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:11:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:11:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:11:39 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:11:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:11:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:11:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:11:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"19\\\",\\\"temp\\\":\\\"20\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:11:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:11:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:11:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:11:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"19","temp":"20"}
+2018-03-14 01:11:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:11:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:11:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:11:44 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:11:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:11:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:11:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:11:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"10\\\",\\\"temp\\\":\\\"14\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:11:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:11:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:11:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:11:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"10","temp":"14"}
+2018-03-14 01:11:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:11:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:11:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:11:49 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:11:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:11:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:11:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:11:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"16\\\",\\\"temp\\\":\\\"17\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:11:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:11:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:11:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:11:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"16","temp":"17"}
+2018-03-14 01:11:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:11:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:11:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:11:54 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:11:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:11:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:11:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:11:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"10\\\",\\\"temp\\\":\\\"19\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:11:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:11:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:11:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:11:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"10","temp":"19"}
+2018-03-14 01:11:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:11:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:11:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:11:59 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:11:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:11:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:11:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:12:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"18\\\",\\\"temp\\\":\\\"13\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:12:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:12:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:12:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:12:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"18","temp":"13"}
+2018-03-14 01:12:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:12:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:12:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:12:04 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:12:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:12:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:12:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:12:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"10\\\",\\\"temp\\\":\\\"19\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:12:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:12:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:12:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:12:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"10","temp":"19"}
+2018-03-14 01:12:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:12:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:12:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:12:09 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:12:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:12:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:12:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:12:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"14\\\",\\\"temp\\\":\\\"18\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:12:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:12:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:12:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:12:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"14","temp":"18"}
+2018-03-14 01:12:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:12:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:12:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:12:14 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:12:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:12:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:12:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:12:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"13\\\",\\\"temp\\\":\\\"19\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:12:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:12:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:12:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:12:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"13","temp":"19"}
+2018-03-14 01:12:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:12:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:12:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:12:19 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:12:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:12:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:12:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:12:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"17\\\",\\\"temp\\\":\\\"19\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:12:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:12:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:12:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:12:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"17","temp":"19"}
+2018-03-14 01:12:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:12:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:12:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:12:24 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:12:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:12:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:12:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:12:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"11\\\",\\\"temp\\\":\\\"14\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:12:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:12:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:12:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:12:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"11","temp":"14"}
+2018-03-14 01:12:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:12:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:12:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:12:29 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:12:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:12:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:12:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:12:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"13\\\",\\\"temp\\\":\\\"11\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:12:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:12:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:12:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:12:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"13","temp":"11"}
+2018-03-14 01:12:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:12:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:12:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:12:34 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:12:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:12:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:12:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:12:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"16\\\",\\\"temp\\\":\\\"11\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:12:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:12:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:12:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:12:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"16","temp":"11"}
+2018-03-14 01:12:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:12:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:12:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:12:39 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:12:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:12:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:12:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:12:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"17\\\",\\\"temp\\\":\\\"16\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:12:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:12:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:12:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:12:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"17","temp":"16"}
+2018-03-14 01:12:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:12:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:12:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:12:44 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:12:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:12:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:12:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:12:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"17\\\",\\\"temp\\\":\\\"13\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:12:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:12:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:12:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:12:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"17","temp":"13"}
+2018-03-14 01:12:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:12:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:12:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:12:49 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:12:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:12:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:12:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:12:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"15\\\",\\\"temp\\\":\\\"16\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:12:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:12:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:12:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:12:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"15","temp":"16"}
+2018-03-14 01:12:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:12:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:12:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:12:54 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:12:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:12:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:12:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:12:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"19\\\",\\\"temp\\\":\\\"13\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:12:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:12:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:12:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:12:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"19","temp":"13"}
+2018-03-14 01:12:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:12:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:12:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:12:59 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:12:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:12:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:12:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:13:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"16\\\",\\\"temp\\\":\\\"14\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:13:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:13:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:13:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:13:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"16","temp":"14"}
+2018-03-14 01:13:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:13:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:13:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:13:04 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:13:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:13:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:13:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:13:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"18\\\",\\\"temp\\\":\\\"20\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:13:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:13:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:13:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:13:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"18","temp":"20"}
+2018-03-14 01:13:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:13:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:13:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:13:09 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:13:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:13:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:13:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:13:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"19\\\",\\\"temp\\\":\\\"17\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:13:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:13:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:13:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:13:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"19","temp":"17"}
+2018-03-14 01:13:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:13:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:13:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:13:14 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:13:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:13:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:13:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:13:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"20\\\",\\\"temp\\\":\\\"11\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:13:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:13:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:13:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:13:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"20","temp":"11"}
+2018-03-14 01:13:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:13:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:13:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:13:19 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:13:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:13:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:13:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:13:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"20\\\",\\\"temp\\\":\\\"17\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:13:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:13:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:13:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:13:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"20","temp":"17"}
+2018-03-14 01:13:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:13:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:13:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:13:24 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:13:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:13:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:13:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:13:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"15\\\",\\\"temp\\\":\\\"13\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:13:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:13:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:13:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:13:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"15","temp":"13"}
+2018-03-14 01:13:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:13:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:13:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:13:29 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:13:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:13:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:13:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:13:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"11\\\",\\\"temp\\\":\\\"15\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:13:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:13:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:13:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:13:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"11","temp":"15"}
+2018-03-14 01:13:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:13:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:13:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:13:34 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:13:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:13:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:13:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:13:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"11\\\",\\\"temp\\\":\\\"19\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:13:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:13:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:13:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:13:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"11","temp":"19"}
+2018-03-14 01:13:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:13:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:13:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:13:39 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:13:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:13:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:13:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:13:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"12\\\",\\\"temp\\\":\\\"11\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:13:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:13:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:13:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:13:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"12","temp":"11"}
+2018-03-14 01:13:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:13:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:13:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:13:44 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:13:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:13:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:13:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:13:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"11\\\",\\\"temp\\\":\\\"12\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:13:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:13:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:13:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:13:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"11","temp":"12"}
+2018-03-14 01:13:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:13:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:13:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:13:49 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:13:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:13:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:13:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:13:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"20\\\",\\\"temp\\\":\\\"10\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:13:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:13:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:13:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:13:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"20","temp":"10"}
+2018-03-14 01:13:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:13:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:13:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:13:54 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:13:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:13:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:13:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:13:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"11\\\",\\\"temp\\\":\\\"17\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:13:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:13:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:13:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:13:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"11","temp":"17"}
+2018-03-14 01:13:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:13:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:13:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:13:59 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:13:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:13:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:13:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:14:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"15\\\",\\\"temp\\\":\\\"18\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:14:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:14:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:14:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:14:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"15","temp":"18"}
+2018-03-14 01:14:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:14:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:14:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:14:04 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:14:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:14:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:14:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:14:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"18\\\",\\\"temp\\\":\\\"13\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:14:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:14:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:14:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:14:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"18","temp":"13"}
+2018-03-14 01:14:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:14:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:14:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:14:09 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:14:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:14:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:14:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:14:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"16\\\",\\\"temp\\\":\\\"12\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:14:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:14:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:14:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:14:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"16","temp":"12"}
+2018-03-14 01:14:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:14:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:14:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:14:14 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:14:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:14:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:14:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:14:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"14\\\",\\\"temp\\\":\\\"16\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:14:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:14:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:14:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:14:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"14","temp":"16"}
+2018-03-14 01:14:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:14:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:14:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:14:19 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:14:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:14:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:14:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:14:19 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 客户端与服务器段开启
+2018-03-14 01:14:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"10\\\",\\\"temp\\\":\\\"15\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:14:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:14:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:14:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:14:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"10","temp":"15"}
+2018-03-14 01:14:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:14:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:14:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:14:24 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:14:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:14:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:14:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:14:24 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"02010001\",\"devicecode\":\"RBGLED\",\"data\":\"\"}"}
+2018-03-14 01:14:24 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"01010001\",\"devicecode\":\"DHT11\",\"data\":\"\"}"}
+2018-03-14 01:14:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"17\\\",\\\"temp\\\":\\\"12\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:14:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:14:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:14:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:14:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"17","temp":"12"}
+2018-03-14 01:14:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:14:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:14:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:14:29 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:14:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:14:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:14:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:14:29 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"02010001\",\"devicecode\":\"RBGLED\",\"data\":\"\"}"}
+2018-03-14 01:14:29 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"01010001\",\"devicecode\":\"DHT11\",\"data\":\"\"}"}
+2018-03-14 01:14:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"13\\\",\\\"temp\\\":\\\"19\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:14:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:14:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:14:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:14:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"13","temp":"19"}
+2018-03-14 01:14:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:14:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:14:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:14:34 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:14:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:14:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:14:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:14:34 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"02010001\",\"devicecode\":\"RBGLED\",\"data\":\"\"}"}
+2018-03-14 01:14:34 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"01010001\",\"devicecode\":\"DHT11\",\"data\":\"\"}"}
+2018-03-14 01:14:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"18\\\",\\\"temp\\\":\\\"17\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:14:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:14:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:14:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:14:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"18","temp":"17"}
+2018-03-14 01:14:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:14:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:14:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:14:39 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:14:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:14:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:14:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:14:39 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"02010001\",\"devicecode\":\"RBGLED\",\"data\":\"\"}"}
+2018-03-14 01:14:39 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 服务器收到:{"code":2,"data":"{\"clientdeviceid\":\"01010001\",\"devicecode\":\"DHT11\",\"data\":\"\"}"}
+2018-03-14 01:14:42 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 本例仅支持文本！
+2018-03-14 01:14:42 [INFO]-[io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker] 客户端与服务器链接关闭！
+2018-03-14 01:14:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"11\\\",\\\"temp\\\":\\\"12\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:14:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:14:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:14:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:14:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"11","temp":"12"}
+2018-03-14 01:14:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:14:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:14:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:14:44 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:14:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:14:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:14:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:14:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"13\\\",\\\"temp\\\":\\\"18\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:14:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:14:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:14:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:14:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"13","temp":"18"}
+2018-03-14 01:14:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:14:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:14:49 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:14:49 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:14:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:14:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:14:49 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:14:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"20\\\",\\\"temp\\\":\\\"18\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:14:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:14:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:14:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:14:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"20","temp":"18"}
+2018-03-14 01:14:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:14:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:14:54 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:14:54 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:14:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:14:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:14:54 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:14:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"10\\\",\\\"temp\\\":\\\"16\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:14:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:14:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:14:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:14:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"10","temp":"16"}
+2018-03-14 01:14:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:14:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:14:59 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:14:59 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:14:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:14:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:14:59 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:15:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"10\\\",\\\"temp\\\":\\\"13\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:15:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:15:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:15:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:15:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"10","temp":"13"}
+2018-03-14 01:15:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:15:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:15:04 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:15:04 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:15:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:15:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:15:04 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:15:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"15\\\",\\\"temp\\\":\\\"15\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:15:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:15:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:15:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:15:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"15","temp":"15"}
+2018-03-14 01:15:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:15:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:15:09 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:15:09 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:15:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:15:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:15:09 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:15:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"16\\\",\\\"temp\\\":\\\"11\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:15:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:15:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:15:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:15:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"16","temp":"11"}
+2018-03-14 01:15:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:15:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:15:14 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:15:14 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:15:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:15:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:15:14 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:15:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"12\\\",\\\"temp\\\":\\\"11\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:15:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:15:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:15:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:15:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"12","temp":"11"}
+2018-03-14 01:15:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:15:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:15:19 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:15:19 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:15:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:15:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:15:19 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:15:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"13\\\",\\\"temp\\\":\\\"14\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:15:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:15:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:15:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:15:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"13","temp":"14"}
+2018-03-14 01:15:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:15:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:15:24 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:15:24 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:15:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:15:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:15:24 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:15:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"19\\\",\\\"temp\\\":\\\"19\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:15:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:15:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:15:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:15:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"19","temp":"19"}
+2018-03-14 01:15:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:15:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:15:29 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:15:29 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:15:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:15:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:15:29 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:15:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"12\\\",\\\"temp\\\":\\\"10\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:15:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:15:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:15:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:15:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"12","temp":"10"}
+2018-03-14 01:15:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:15:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:15:34 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:15:34 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:15:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:15:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:15:34 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:15:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"11\\\",\\\"temp\\\":\\\"19\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:15:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:15:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:15:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:15:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"11","temp":"19"}
+2018-03-14 01:15:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:15:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:15:39 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:15:39 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:15:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:15:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:15:39 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:15:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server get :{"code":2,"data":"[{\"clientdeviceid\":\"01010001\",\"data\":\"{\\\"humi\\\":\\\"11\\\",\\\"temp\\\":\\\"15\\\"}\",\"devicecode\":\"DHT11\"},{\"clientdeviceid\":\"02010001\",\"data\":\"{\\\"color\\\":\\\"g\\\",\\\"power\\\":\\\"on\\\"}\",\"devicecode\":\"RGBLED\"}]"}
+2018-03-14 01:15:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 连接已经建立过了，准备更新设备信息......
+2018-03-14 01:15:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 01010001
+2018-03-14 01:15:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] DHT11
+2018-03-14 01:15:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"humi":"11","temp":"15"}
+2018-03-14 01:15:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] 02010001
+2018-03-14 01:15:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] RGBLED
+2018-03-14 01:15:44 [INFO]-[cn.edu.fjjxu.iot.service.ChannelService] {"color":"g","power":"on"}
+2018-03-14 01:15:44 [INFO]-[cn.edu.fjjxu.iot.service.MessageService] [head=118,length=53,content={"code":2,"data":"{\"msg\":\"ok\",\"success\":true}"}]
+2018-03-14 01:15:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] 21590274
+2018-03-14 01:15:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] /127.0.0.1:3461
+2018-03-14 01:15:44 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:15:47 [INFO]-[cn.edu.fjjxu.iot.server.ServerHandler] server channelReadComplete..
+2018-03-14 01:15:47 [ERROR]-[cn.edu.fjjxu.iot.server.ServerHandler] server exceptionCaught:远程主机强迫关闭了一个现有的连接。
