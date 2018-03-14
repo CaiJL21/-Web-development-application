@@ -10,30 +10,17 @@
 本次实验采用JSP+JavaBean+Sevlet对于数据库的数据进行增删改查，即用户的管理，监控设备的实时监控，数据的展示。
 1. 页面的显示使用[bootstrap](https://getbootstrap.com/)自适应屏幕;
 2. 数据的记录方面采用[fastjson](https://github.com/alibaba/fastjson)框架，后台返回json数据包，Ajax异步传输调用，定义传输格式(humi: , temp:),温湿度的数据记录;(实验采用模拟服务器模拟数据，即**runserver.bat**和**runsimulator.bat**,可以改变端口号或者网关号来对应不同的设备监控)
-```
-$.ajax({
-							type : "post",
-							data : {
-								gdid :$("#dhtid").val(), //设备id，目前用预设的编号
-								recorddata : device.data, //直接存入字符串数据，方便以后扩展不用的传感器数据
-							},
-							url : "ThistoryDataServlet?action=add", //自己填入servlet地址
-							success : function(data) {
-								//console.log(data);返回JSON数据
-							}
-						});
-						```
-3. 在历史数据的显示中采用Echarts这个前端数据可视化工具，[Echarts](http://echarts.baidu.com/examples/index.html#chart-type-globe).
+3. 在历史数据的显示中采用[Echarts](http://echarts.baidu.com/examples/index.html#chart-type-globe)这个前端数据可视化工具。
   
 ![](https://raw.githubusercontent.com/CaiJL21/-Web-development-application/master/images/TIM%E6%88%AA%E5%9B%BE20180314011300.png)
 
 
 
-## 最后 ##
+### 最后 ###
 > 敢于第一个吃螃蟹的人，都是有大毅力和勇气之人。
 
 
-参考文献： - [简书](https://www.jianshu.com/p/q81RER#)    -[Cmd markdown使用说明](https://www.zybuluo.com/mdeditor?url=https%3A%2F%2Fwww.zybuluo.com%2Fstatic%2Feditor%2Fmd-help.markdown)
+参考文献： [简书](https://www.jianshu.com/p/q81RER#)   [Cmd markdown使用说明](https://www.zybuluo.com/mdeditor?url=https%3A%2F%2Fwww.zybuluo.com%2Fstatic%2Feditor%2Fmd-help.markdown)
 
 
  初次尝试，欢迎指正！
